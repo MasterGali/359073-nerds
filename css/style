@@ -1,0 +1,32 @@
+body{
+	font-size: 10px;
+  font-family: "Roboto";
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+}
+
+
+.page-title {
+  font-size: 10px;
+  font-family: "Roboto";
+  color: rgb(0, 0, 0);
+  line-height: 1;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 13px;
+  font-family: "Roboto";
+  color: rgb(0, 0, 0);
+  line-height: 1;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 5px;
+  font-family: "Roboto";
+  color: rgb(0, 0, 0);
+  line-height: 1.667;
+  font-weight: normal;
+ 
+}
