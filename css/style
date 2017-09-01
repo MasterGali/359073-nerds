@@ -14,7 +14,7 @@ body{
   font-weight: normal;
 }
 
-h2 {
+.about {
   font-size: 13px;
   font-family: "Roboto";
   color: rgb(0, 0, 0);
@@ -22,7 +22,7 @@ h2 {
   font-weight: normal;
 }
 
-h3 {
+.filtres-title {
   font-size: 5px;
   font-family: "Roboto";
   color: rgb(0, 0, 0);
