@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Нёрдс</title>
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">							
 </head>
 <body>
   <header class="main-header">
@@ -27,23 +27,46 @@
 	<section class="filtres">
 	  <h3 class="filtres-title">Стоимость</h3>
 	  <form class="filter" method="get" action="https://echo.htmlacademy.ru/">
-	    <fieldset>
+	    <fieldset>	
 		  <legend>Сетка</legend>
 		    <ul>
 			  <li class="filter-option">
-			    <input type="radio" name="mesh" value="adaptive" checked>Адаптивная</li>
-              <li class="filter-option"><input type="radio" name="mesh" value="fixed">Фиксированная</li>
-              <li class="filter-option"><input type="radio" name="mesh" value="rubber">Резиновая</li>
+			    <label>
+			      <input type="radio" name="mesh" value="adaptive" checked>Адаптивная</li>
+			    </label>
+              <li class="filter-option">
+                <label>
+                  <input type="radio" name="mesh" value="fixed">Фиксированная</li>
+                </label>
+              <li class="filter-option">
+                <label>
+                  <input type="radio" name="mesh" value="rubber">Резиновая</li>
+                </label>  
 			</ul>
 		</fieldset>
         <fieldset>
 		  <legend>Особенности</legend>
 			<ul>
-			  <li class="filter-option"><input type="checkbox" name="slider" checked>Слайдер</li>
-              <li class="filter-option"><input type="checkbox" name="advantage">Блок преимуществ</li>
-              <li class="filter-option"><input type="checkbox" name="news" checked>Новости</li>
-              <li class="filter-option"><input type="checkbox" name="gallery" checked>Галерея</li>
-              <li class="filter-option"><input type="checkbox" name="basket">Корзина</li>
+			  <li class="filter-option">
+			    <label>
+			      <input type="checkbox" name="slider" checked>Слайдер</li>
+			    </label>
+              <li class="filter-option">
+                <label>
+                  <input type="checkbox" name="advantage">Блок преимуществ</li>
+                </label>
+              <li class="filter-option">
+                <label>
+                  <input type="checkbox" name="news" checked>Новости</li>
+                </label>
+              <li class="filter-option">
+                <label>
+                  <input type="checkbox" name="gallery" checked>Галерея</li>
+                </label>
+              <li class="filter-option">
+                <label>
+                  <input type="checkbox" name="basket">Корзина</li>
+                </label>
 			</ul>
 		</fieldset>
 		<button type="submit" class="filter-button button">Показать</button>
@@ -51,17 +74,14 @@
 	</section>
     <section class="filtres">
 	  <h3>Сортировать</h3>
-	  <form class="filter" method="get" action="https://echo.htmlacademy.ru/">
-	  <fieldset>
-	    <legend>По цене</legend>
-	  </fieldset>
-      <fieldset>
-	    <legend>По типу</legend>
-	  </fieldset>
-      <fieldset>
-	    <legend>По названию</legend>
-	  </fieldset>
-      </form>
+	    <ul>
+	      <li><a href="#">По цене</a></li>
+	      <li><a href="#">По типу</a></li>
+	      <li><a href="#">По названию</a></li>
+	    </ul>
+	    <button type="submit" class="btn-up">Вверх</button>
+	    <button type="submit" class="btn-down">Вниз</button>
+	     
     </section>
     <h2 class="visually-hidden">Каталог</h2>
     <ul>
